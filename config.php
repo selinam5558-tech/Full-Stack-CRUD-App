@@ -3,10 +3,10 @@
 // Update these values for local development.
 // For production, prefer environment variables.
 
-$DB_HOST = getenv('DB_HOST') ?: '127.0.0.1';
+$DB_HOST = getenv('DB_HOST') ?: 'crud-app-selinamcintyre07-2322.j.aivencloud.com';
 $DB_NAME = getenv('DB_NAME') ?: 'crud_app';
-$DB_USER = getenv('DB_USER') ?: 'root';
-$DB_PASS = getenv('DB_PASS') ?: '';
+$DB_USER = getenv('DB_USER') ?: 'avnadmin';
+$DB_PASS = getenv('DB_PASS') ?: 'AVNS_6byV08x4wxGeggB_4Uq';
 
 $dsn = "mysql:host={$DB_HOST};dbname={$DB_NAME};charset=utf8mb4";
 
